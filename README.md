@@ -10,29 +10,6 @@ The model is trained on a dataset of real and fake faces and achieves an **accur
 * Evaluation of model with accuracy and loss metrics.
 * Predicting whether a new image is **real** or **fake**.
 
-## Project Structure
-deepfake/
-│── dataset/
-│   ├── train/
-│   │   ├── real/
-│   │   ├── fake/
-│   ├── test/
-│   │   ├── real/
-│   │   ├── fake/
-│
-│── model/
-│   ├── deepfake_cnn.h5
-│
-│── notebooks/
-│   ├── training.ipynb
-│   ├── testing.ipynb
-│
-│── src/
-│   ├── train.py
-│   ├── test.py
-│   ├── predict.py
-│
-│── README.md
 ## Installation & Requirements
 
 1. Clone the repository
